@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama&family=PT+Sans&family=Poppins:wght@100;200;300;400&family=Readex+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    background-color: rgba(255, 255, 255, 0.74);
+    margin: .2rem;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: gray;
+}
+.container{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.nav-left{
+    display: flex;
+    gap: .8rem;
+    text-align: center;
+    align-items: center;
+}
+.nav-right{
+    display: flex;
+    gap: .8rem;
+    text-align: center;
+    align-items: center;
+}
+img{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.apps{
+    border-radius: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    
+    
+}
+
+.logo{
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    margin: 30vh;
+    justify-content: center;
+    font-family: 'Georama', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    
+    margin-bottom: 20px;
+}
+.blue{
+    color: #4285f4;
+}
+.yellow{
+    color: #f4b400;
+}
+.red{
+    color: #db4437;
+}
+.green{
+    color: #0f9d58;
+}
+
+.search{
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+input{
+    width: 500px;
+    border: 2px solid rgb(233, 229, 229);
+    height: 35px;
+    border-radius: 30px;
+    outline: none;
+    padding-left: 42px;   
+}
+
+input:hover{
+    box-shadow: 0 0 5px rgb(216, 216, 216);  
+}
+.search i{
+    position: absolute;
+    left: 15px;
+    align-items: center;
+    padding: 5px;
+    color: rgb(233, 229, 229);
+    margin-top: 10px;
+    
+    
+}
+
+@media (max-width: 800px){
+    .container .nav-left{
+        display: none;
+        
+    }
+    .input{
+        width: 200px;
+    }
+}
