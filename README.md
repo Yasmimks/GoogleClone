@@ -3,7 +3,7 @@
 Page using HTML and CSS.<br />
 
 ### Web Version
-<img src="webfinal.JPG" alt="Web Version"/>
+<img src="webfinal2.JPG" alt="Web Version"/>
 
 ## 🚀 Starting
 
